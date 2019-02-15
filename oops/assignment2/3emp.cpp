@@ -11,7 +11,7 @@ public:
 	{
 		cout << "The details of the employee are" << endl;
 		cout << "empno=" << empno << endl;
-		cout << "name=" << *name << endl;
+		cout << "name=" << name << endl;
 		cout << "salary=" << salary << endl;
 	}
 	friend istream operator&(istream& cin, EMPLOYEE& e);
