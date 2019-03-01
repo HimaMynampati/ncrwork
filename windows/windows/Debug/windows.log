@@ -1,0 +1,7 @@
+﻿  wchar.cpp
+c:\users\esdm\ncrwork\windows\windows\wchar.cpp(10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+  c:\users\esdm\ncrwork\windows\windows\wchar.cpp(10): note: placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+  c:\users\esdm\ncrwork\windows\windows\wchar.cpp(10): note: the missing variadic argument 2 is required by format string '%c'
+  c:\users\esdm\ncrwork\windows\windows\wchar.cpp(10): note: this argument is used as a buffer size
+  windows.vcxproj -> C:\Users\esdm\ncrwork\windows\Debug\windows.exe
+  windows.vcxproj -> C:\Users\esdm\ncrwork\windows\Debug\windows.pdb (Full PDB)
