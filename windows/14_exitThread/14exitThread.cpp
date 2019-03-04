@@ -17,7 +17,7 @@ int main()
 	HANDLE hthread;
 	g_x = 0;
 	printf("value of g_x in primary thread is %ld\n", g_x);
-	hthread = CreateThread(NULL, 0, secondary_thread, NULL, CREATE_SUSPENDED, &thid);
+	hthread = CreateThread(NULL, 0, secondary_thread, NULL,0, &thid);
 	if (hthread == NULL)
 	{
 		printf("Unable to thread to create %d", GetLastError());
