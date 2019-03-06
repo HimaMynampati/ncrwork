@@ -1,5 +1,4 @@
 #include<stdio.h>
-int mgetline(char s[], int maxlimit);
 void expand(char s1[], char s2[]);
 
 int main(void)
